@@ -1,0 +1,180 @@
+.description{
+    max-width: 940px;
+    margin: auto;
+    margin-top:1rem;
+}
+
+.mini-navigation{
+    margin-bottom: 4rem;   
+}
+.mini-navigation a{
+    font-family: normal;
+    color: $color-primery-dark;
+
+}
+
+.mini-navigation i{
+    color: $color-secendery;
+}
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 350px;
+  margin-right: 40px;
+  position: relative;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: $color-primery-dark;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 0px;
+  width: 50px;
+  margin: 0 10px;  
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+    height: 1px;
+  }
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.fade img{
+    height: 350px;
+    width: 280px;
+}
+
+
+.product-description h5{
+    font-size: 13px;
+}
+.des-line{
+    margin-top: -20px;
+    height: 2px;
+    background-color: $color-primery-light;
+}
+.product-description h1{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+.price p:first-child{
+    font-size: 25px;
+}
+.price span{
+    color:$color-secendery
+}
+.price p:last-child{
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a{
+        padding: 10px 30px;
+        margin-left: 20px;
+        background-color: $color-primery-dark;
+        color: $color-white;
+        font-family: normal;
+        transition: .4s;
+        border: 1px solid $color-primery-dark ;
+    }
+    a:hover{
+        background-color: $color-white ;
+        color: $color-primery-dark;
+        border: 1px solid $color-primery-dark ;
+        transition: .4s;
+    }
+}
+
+
+
+
+
+#customers {
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:$color-primery-dark;
+    color: $color-primery-light;
+  }
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

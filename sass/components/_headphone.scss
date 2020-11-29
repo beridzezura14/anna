@@ -1,0 +1,110 @@
+.section-headphone{
+    margin-top: 4rem;
+}
+
+.headphone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $color-primery-light;
+
+    &__apple{
+        background: linear-gradient(rgba(20, 37, 56, 0.767), rgba(0, 0, 0, 0.74)), url("/img/2.jpeg") center no-repeat;
+        height: 60vh;
+        width: 110vh;
+        background-size: cover;
+        background-position: center; 
+
+    }
+    &__apple div{
+        margin-left: 3rem;
+        height: 60vh;
+    }
+    &__apple div h2{
+        margin-bottom: 30vh;
+        color: $color-primery-light;
+    }
+    &__apple div p span{
+        color: $color-secendery;
+    }
+    &__apple div a:last-child{
+        padding: 10px 20px;
+        border-radius: 3px;
+        border: 1px solid $color-secendery;
+        color: $color-primery-light;
+        font-family: normal;
+        transition: .4s;
+    }
+    &__apple div a:last-child:hover{
+        color:$color-secendery;
+        transition: .4s;
+    }
+
+    
+    &__cabel{
+        padding: 0;
+        margin: 0;
+        background: linear-gradient(rgba(20, 37, 56, 0.767), rgba(0, 0, 0, 0.74)), url("/img/1.jpeg") no-repeat center;
+        height: 60vh;
+        width: 110vh;
+        background-size: cover;
+
+
+    }
+    &__cabel div{
+        margin-left: 3rem;
+        height: 60vh;
+    }
+    &__cabel div h2{
+        margin-bottom: 30vh;
+        color: $color-primery-light;
+    }
+    &__cabel div p span{
+        color: $color-secendery;
+    }
+    &__cabel div a:last-child{
+        padding: 10px 20px;
+        border-radius: 3px;
+        border: 1px solid $color-secendery;
+        color: $color-primery-light;
+        font-family: normal;
+        transition: .4s;
+    }
+    &__cabel div a:last-child:hover{
+        color:$color-secendery;
+        transition: .4s;    
+    }
+    &__head{
+        padding: 0;
+        margin: 0;
+        background: linear-gradient(rgba(20, 37, 56, 0.767), rgba(0, 0, 0, 0.74)), url("/img/1.jpg") center;
+        height: 60vh;
+        width: 110vh;
+        background-size: cover;
+
+    }
+    &__head div{
+        margin-left: 3rem;
+        height: 60vh;
+    }
+    &__head div h2{
+        margin-bottom: 30vh;
+        color: $color-primery-light;
+    }
+    &__head div p span{
+        color: $color-secendery;
+    }
+    &__head div a:last-child{
+        padding: 10px 20px;
+        border-radius: 3px;
+        border: 1px solid $color-secendery;
+        color: $color-primery-light;
+        font-family: normal;
+        transition: .4s;
+    }
+    &__head div a:last-child:hover{
+        color:$color-secendery;
+        transition: .4s;
+    }
+    
+}

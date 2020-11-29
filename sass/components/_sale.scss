@@ -1,0 +1,62 @@
+.sale{
+    margin-top: 5rem;
+    background: linear-gradient(rgba(20, 37, 56, 0.767), rgba(0, 0, 0, 0.74)), url("/img/back.jpg") center no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 60vh;
+    position: relative; 
+    color: $color-white;
+    background-attachment: fixed;
+
+
+    &__future{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60vh;
+        position: relative;  
+    }
+    &__future div div{
+        display: flex;
+    }
+    &__future div div p{
+        font-size: 20px;
+     }
+     &__future div div p span{
+       color: $color-secendery;
+     }
+    &__future div div p:first-child{
+       text-decoration: line-through;
+    }
+    
+
+    &__future div h3{
+       font-size: 30px;
+       text-align: center;
+    }
+    &__future div h3 span{
+        color: $color-secendery;
+     }
+    &__future div h4{
+        font-size: 20px;
+     }
+    &__future div p{
+        max-width: 520px;
+        margin-right: 50px;
+     }
+     
+    &__future img{
+       height: 340px;
+       width: 300px;
+    }
+    &__future img:last-child{
+        margin-top: -280px;
+        margin-left: -80px;
+        height: 80px;
+        width: 70px;
+        
+     }
+}
+.links-sale{
+    margin-top: 30px;
+}

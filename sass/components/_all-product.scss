@@ -1,0 +1,157 @@
+.all-category{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;    
+    justify-content: space-around;
+
+    .left-side-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+        .left-side-product{
+          
+          .left-side-img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            width: 180px;
+            margin-top: 1rem;           
+          }
+        }
+        
+    }
+}
+
+.price-leftp{
+  font-size: 14px;
+}
+.buttons-left-side a{
+  padding: 5px 10px;
+  background-color: $color-white;
+  color: $color-primery-dark;
+  border: 1px solid $color-primery-dark;
+  font-family: normal;
+  font-size: 13px;
+}
+
+/* Fixed sidenav, full height */
+.sidenav { 
+    width: 100%;
+    z-index: 1;
+    background-color: $color-grey;
+    overflow-x: hidden;
+    padding: 50px 40px;
+    font-family: normal;
+   
+    margin-top: 4rem;
+    button{
+        font-family: normal;
+        font-size: 15px;
+    }
+
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 10px 8px 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color:$color-primery-dark;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: $color-primery;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+
+    color: $color-primery-dark;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color:$color-primery-light;
+    padding-left: 8px;
+    margin-top: 30px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+
+.flex{
+    margin-top: 4rem;
+   
+    background-color: $color-grey;
+}
+.flex-col-1{
+    display: flex;    
+    align-items: center;
+    width: 800px;
+    position: relative;
+    border: 1px solid $color-grey;
+    padding: 10px 50px;
+    
+    &__columne{
+        flex-direction: row;
+    }
+    img{
+        margin-top: 10px;
+        height: 280px;
+        width: 260px;
+    }
+    &__colomne{
+        margin-left: 40px;
+        h5{
+            margin-top: -10px;
+        }
+        .price{
+            margin-top: 20px;
+        }
+        .buttons{
+            a{
+                padding: 5px 10px;
+                border: 1px solid $color-primery-dark;
+                color: $color-primery-dark;
+                background-color: $color-white;
+                font-family: normal;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+.flex-col-1:hover{
+  border: 1px solid $color-primery-light;
+  box-shadow: 0px 0 15px 0 $color-primery-light;
+}
+
+  
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

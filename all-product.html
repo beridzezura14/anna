@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>მთავარი &mdash; Home</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">    
+    <link rel="stylesheet" type="text/css" href="sass/main.scss">
+    <meta charset="utf-8">    
+    <link rel="shortcut icon" href="img/main-pic.png"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    
+</head>
+<body>
+
+    <div class="row-1">
+        <div class="row-all">
+            <div class="row-all__row-log">
+                <a href="#">რეგისტრაცია </a>
+                <a href="#">შესვლა</a>
+            </div>
+            <div class="row-all__row-mix">
+                <a href="#"><ion-icon name="heart-outline"></ion-icon> სურვილები</a>
+
+                <div class="icon-social">
+                    <ion-icon class="icon" name="logo-facebook"></ion-icon>
+                    <ion-icon class="icon" name="logo-youtube"></ion-icon>
+                    <ion-icon class="icon" name="logo-instagram"></ion-icon>
+                </div>
+            </div>
+        </div>   
+    </div>
+    
+
+    <div class="row-2">
+        <div class="row-2__logo"><a href="index.html"><img src="img/logo-shop-1.png" alt=""></a></div>
+        
+        <div class="row-2__search-box">
+            <input type="text" class="search" placeholder="ძიება ...">
+            <button type="submit" class="search-btn">
+                <i class="fas fa-search"></i>
+            </button> 
+        </div>
+        <div class="row-2__row-2-1">
+            
+            <div class="contact"> <ion-icon class="phone" name="call-outline"></ion-icon> 555 11 22 33</div>
+            <div class="cart"> 
+                <ion-icon class="cart-icon" name="bag-outline"></ion-icon> 
+                <div>
+                    <span>cart</span>
+                    <span>0.00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <nav>
+        <label for="drop" class="toggle right">Menu</label>
+        <input type="checkbox" id="drop" />
+            <ul class="menu">
+                <li><a href="index.html">მთავარი</a></li>
+                <!--
+                <li>
+                     First Tier Drop Down --><!--
+                    <label for="drop-1" class="toggle">WordPress +</label>
+                    <a href="#">WordPress</a>
+                    <input type="checkbox" id="drop-1"/>
+                    <ul>
+                        <li><a href="#">Themes and stuff</a></li>
+                        <li><a href="#">Plugins</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                    </ul> 
+
+                </li>
+                -->
+                <li>
+
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle">პროდუქტი +</label>
+                <a href="#">პროდუქტი +</a>
+                <input type="checkbox" id="drop-2"/>
+                <ul>
+                    <li><a href="#">აქციები</a></li>
+                    <li><a href="#">მიკროფონები</a></li>
+                    <li><a href="#">მობილურის აქსესუარები</a></li>
+                    <li><a href="#">ავტომობილის აქსესუარები</a></li>
+                    
+                    <li>
+                       
+                    <!-- Second Tier Drop Down -->        
+                    <label for="drop-3" class="toggle">დამტენი +</label>
+                    <a href="#">დამტენი +</a>         
+                    <input type="checkbox" id="drop-3"/>
+
+                    <ul>
+                        <li><a href="#">აიფონი</a></li>
+                        <li><a href="#">ანდროიდი</a></li>
+                        <li><a href="#">ანდროიდი 2</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Links</a></li>
+                    <li>
+                       
+                    <!-- Second Tier Drop Down -->        
+                    <label for="drop-4" class="toggle">ყურსასმენები +</label>
+                    <a href="#">ყურსასმენები +</a>         
+                    <input type="checkbox" id="drop-4"/>
+
+                    <ul>
+                        <li><a href="#">კაბელის</a></li>
+                        <li><a href="#">ბლუთუზ</a></li>
+                        
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="#">წესები</a></li>
+                <li><a href="#">მიწოდება</a></li>
+                <li><a href="#">კონტაქტი</a></li>
+                <li><a href="#">ჩენს შესახებ</a></li>
+            </ul>
+    </nav> 
+
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+
+
+
+<section class="all-category">
+        <div class="left-side-bar">
+            <div class="sidenav">
+                <a href="index.html">მთავარი</a>
+                <a href="#about">აქციები</a>                
+                <button class="dropdown-btn">ყურსასმენები 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                  <a href="#">wierles</a>
+                  <a href="#">კაბელის</a>
+                </div>
+                <a href="#contact">ქეისები</a>
+                <button class="dropdown-btn">მობილურის აქსესუარები 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-container">
+                    <a href="#">ქეისები</a>
+                    <a href="#">დამტენი</a>
+                    <a href="#">wierles დამტენი</a>
+                  </div>
+                <a href="#services"></a>
+                <button class="dropdown-btn">მანქანის აქსესუარები 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-container">
+                    <a href="#">ადაპტერი</a>
+                    <a href="#">დამტენი</a>
+                    <a href="#">AUX კაბელი</a>
+                  </div>
+                <a href="#clients">მიკროფონები</a>
+              </div>              
+        
+
+            <div class="left-side-product">
+                <li class="left-side-product-inside">
+                    <img class="left-side-img" src="img/main-pic.png" alt="">
+                    <h5> ყურსასმენები</h5>
+                    <div class="des-line"></div>
+                    <h3>Nraphone s5</h3>
+                    <p style="font-size: 10px; line-height: 20px;"> ვებ-გვერდი ეხება თანამედროვე ქართული ქართული<br> 
+                        ლიტერატურის საკითხებს მეოცე საუკუნის </p>
+                    <div class="price-left">
+                        <p>100.00 <span>GEL</span> </p><p><span</span> </p>
+                    </div>
+                    <div class="buttons-left-side">
+                        <a href="product.html">ვრცლად</a>
+                        <a href="#">კალათაში დამატება</a>
+                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
+                    </div>
+                </li>
+                <li>
+                    <img class="left-side-img" src="img/main-pic.png" alt="">
+                    <h5>ყურსასმენები</h5>
+                    <div class="des-line"></div>
+                    <h3> Nuraphone s5</h3>
+                    <p style="font-size: 10px; line-height: 20px;"> ვებ-გვერდი ეხება თანამედროვე ქართული ქართული<br> 
+                        ლიტერატურის საკითხებს მეოცე საუკუნის </p>
+                    <div class="price-left">
+                        <p>100.00 <span>GEL</span> </p><p><span></span> </p>
+                    </div>
+                    <div class="buttons-left-side">
+                        <a href="product.html">ვრცლად</a>
+                        <a href="#">კალათაში დამატება</a>
+                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
+                    </div>
+                </li>
+                <li>
+                    <img class="left-side-img" src="img/main-pic.png" alt="">
+                    <h5>ყურსასმენები</h5>
+                    <div class="des-line"></div>
+                    <h3>Nuraphone s5</h3>
+                    <p style="font-size: 10px; line-height: 20px;"> ვებ-გვერდი ეხება თანამედროვე ქართული ქართული<br> 
+                        ლიტერატურის საკითხებს მეოცე საუკუნის </p>
+                    <div class="price-left">
+                        <p>100.00 <span>GEL</span> </p><p><span></span> </p>
+                    </div>
+                    <div class="buttons-left-side">
+                        <a href="product.html">ვრცლად</a>
+                        <a href="#">კალათაში დამატება</a>
+                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
+                    </div>
+                </li>
+                
+            </div>
+
+    </div>    
+
+    <section class="flex">
+
+
+        <div class="flex-col">
+            <div class="flex-col-1"> 
+                <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute;"> Sale</span>
+                <img src="img/main-pic.png" alt="">
+               
+                <div class="flex-col-1__colomne">
+                    <h5>ყურსასმენები</h5>
+                    <div class="des-line"></div>
+                    <h1>Nuraphone s5</h1>
+                    <div class="price">
+                        <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
+                    </div>
+                    <div class="buttons">
+                        <a href="product.html">ვრცლად</a>
+                        <a href="#">კალათაში დამატება</a>
+                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 2rem;" class="des-line"></div>
+        </div>
+        <div class="flex-col">
+            <div class="flex-col-1">
+                <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute;"> Sale</span>
+                <img src="img/main-pic.png" alt="">
+                <div class="flex-col-1__colomne">
+                    <h5>ყურსასმენები</h5>
+                    <div class="des-line"></div>
+                    <h1>Nuraphone s5</h1>
+                    <div class="price">
+                        <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
+                    </div>
+                    <div class="buttons ">
+                        <a href="">ვრცლად</a>
+                        <a href="">კალათაში დამატება</a>
+                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 2rem;" class="des-line"></div>
+        </div>
+        <div class="flex-col">
+            <div class="flex-col-1">
+                <img src="img/main-pic.png" alt="">
+                <div class="flex-col-1__colomne">
+                    <h5>ყურსასმენები</h5>
+                    <div class="des-line"></div>
+                    <h1>Nuraphone s5</h1>
+                    <div class="price">
+                        <p>100.00 <span>GEL</span> </p><p><span></span> </p>
+                    </div>
+                    <div class="buttons">
+                        <a href="">ვრცლად</a>
+                        <a href="">კალათაში დამატება</a>
+                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 2rem;" class="des-line"></div>
+        </div>
+        <div class="flex-col">
+            <div class="flex-col-1">
+                <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute;"> Sale</span>
+                <img src="img/main-pic.png" alt="">
+                <div class="flex-col-1__colomne">
+                    <h5>ყურსასმენები</h5>
+                    <div class="des-line"></div>
+                    <h1>Nuraphone s5</h1>
+                    <div class="price">
+                        <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
+                    </div>
+                    <div class="buttons">
+                        <a href="">ვრცლად</a>
+                        <a href="">კალათაში დამატება</a>
+                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 2rem;" class="des-line"></div>
+        </div>
+        <div class="flex-col">
+            <div class="flex-col-1">
+                <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute;"> Sale</span>
+                <img src="img/main-pic.png" alt="">
+                <div class="flex-col-1__colomne">
+                    <h5>ყურსასმენები</h5>
+                    <div class="des-line"></div>
+                    <h1>Nuraphone s5</h1>
+                    <div class="price">
+                        <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
+                    </div>
+                    <div class="buttons">
+                        <a href="">ვრცლად</a>
+                        <a href="">კალათაში დამატება</a>
+                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 2rem;" class="des-line"></div>
+        </div>
+        <div class="flex-col">
+            <div class="flex-col-1">
+                <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute;"> Sale</span>
+                <img src="img/main-pic.png" alt="">
+                <div class="flex-col-1__colomne">
+                    <h5>ყურსასმენები</h5>
+                    <div class="des-line"></div>
+                    <h1>Nuraphone s5</h1>
+                    <div class="price">
+                        <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
+                    </div>
+                    <div class="buttons">
+                        <a href="">ვრცლად</a>
+                        <a href="">კალათაში დამატება</a>
+                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 2rem;" class="des-line"></div>
+        </div>
+
+    </section>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+    <footer>
+        <div class="footer">  
+            <div class="footer__mini-menu">
+                <div>   
+                    <a href="index.html">მთავარი</a>
+                    <a href="#">ჩემი გვერდი</a>
+                    <a href="#">შესვლა</a>
+                    <a href="#">რეგისტრაცია</a>
+                    <a href="#">სურვილები</a>
+                </div>
+                <div>
+                    <img src="img/logo-shop-1.png" alt="">
+                    <p> <ion-icon class="phone" name="call-outline"></ion-icon>555 11 22 33</p>
+                </div>
+                             
+            </div>
+            <div class="footer__line"></div>
+            <div class="footer__about">
+                <h1>ჩვენს შესახებ</h1>
+                <p>ვებ-გვერდი ეხება თანამედროვე ქართული ლიტერატურის საკითხებს მეოცე საუკუნის პირველი ნახევრიდან, საბჭოური კულტურული 
+                    პოლიტიკის დამკვიდრებიდან დღემდე.</p>
+                <p> შესაბამისად, განხილულია ის კულტურულ-ესთეტიკური პრობლემები, რასაც ქართული 
+                    ლიტერატურა აწყდება ცვალებადი პოლიტიკური</p>
+
+            </div>
+        </div>  
+        
+        
+
+
+        <p style="text-align: center; font-family: normal; margin: 1rem 0 0 0;">&copy; ყველა უფლება დაცულია</p>   
+
+
+    </footer>
+
+    
+
+    </script>
+
+<script src="js/scroll.js"></script>
+<script src="js/vertical-dropdown.js"></script>
+<script src="js/scroll-top.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

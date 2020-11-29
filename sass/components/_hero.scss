@@ -1,0 +1,80 @@
+
+.hero{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    border-bottom: 3px solid $color-primery-light;
+ 
+        &__main-pic{
+            height: 500px;
+            width: 450px;
+            cursor: pointer;
+            transition: .4s;
+            animation-name: moveInLeft;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+        }
+
+        &__main-pic:hover{
+            transform: scale(1.03);
+        }
+
+        &__product p:first-child{
+            font-size: 13px;
+            font-family: bold;
+            color:rgb(100, 100, 100);
+        }
+
+        &__product h1{
+            font-family: bold;
+            font-size: 65px;
+            color: rgb(94, 94, 94);
+        }
+        
+        &__product-description{
+            margin-top: 15px;
+            font-size: 14px;
+            font-family: bold;
+            line-height: 24px;
+            color: red;
+        }
+
+}
+.nura{
+    color: rgb(156, 23, 52);    
+}
+.links{
+    margin-top: 60px;
+    font-family: normal;
+    font-size: 14px;
+}
+.links a:first-child{
+    padding: 10px 20px;
+    border: 1px solid #254441;
+    background-color: white;
+    color:  #101d2c;  
+    transition: .4s;
+    margin-right: 10px;    
+}
+.links a:first-child:hover{
+    background-color:#254441;
+    border: 1px solid #254441;
+    color:white;  
+    transition: .4s;  
+}
+.links a:last-child{
+    padding: 10px 20px;
+    border: 1px solid #254441;
+    background-color:#254441;
+    color: white; 
+    transition: .4s;   
+}
+.links a:last-child:hover{
+    padding: 10px 20px;
+    background-color: white;
+    color:   #254441; 
+    border: 1px solid #254441; 
+    transition: .4s;  
+}

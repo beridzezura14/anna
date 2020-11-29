@@ -1,0 +1,500 @@
+@media all and (max-width : 1300px){
+	.fade-in{
+		opacity: 1;
+	}
+	.section{
+		margin-top: 4rem;
+		padding: 0;
+	
+	
+		&__category-name{
+			max-width: 90%; 
+			margin: auto;
+			padding-bottom: 3rem;
+			font-size: 25px;
+		   
+			font-family: normal;
+		}
+		&__category-name div{
+			height: 2px;
+			background-color: $color-primery-light;
+		}
+		&__category{
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			max-width: 90%; 
+			margin: auto;       
+		}
+		&__category a li img{
+			border-radius: 10px;
+			height: 370px;
+			width: 350px;
+			padding: 25px 35px 0 35px;
+		}
+	}
+	.all-product{
+		max-width: 90%;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	  
+			&__details img{
+			  display: flex;
+			  align-items: center;
+				margin: auto;
+				height: 410px;
+				width: 380px;				
+				transition: .5s ease;
+				backface-visibility: hidden;
+			}     
+		}
+
+		.all-category{
+			max-width: 1250px;
+			margin: auto;
+			display: flex;    
+			justify-content: space-around;
+		}		
+		.flex-col-1{
+			width: 700px;			
+		}
+
+
+	.footer{
+		&__about p{
+				width: 400px;
+			}
+	}
+
+
+}
+
+
+@media all and (max-width : 958px) {
+		
+	.row-2{
+		flex-direction: column;
+
+
+		&__logo img{
+			margin-bottom: 10px;
+		}
+
+		&__search-box{   
+			width: 90%;
+			margin-bottom: 10px;
+
+		}
+		&__row-2-1{
+			margin-bottom: 10px;
+		}
+	}
+	
+	.search{
+		height: 5px;		
+	}
+	
+	
+
+	nav {
+		margin: 0;
+	}
+
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle + a,
+	.menu {
+		display: none;
+	}
+
+	/* Stylinf the toggle lable */
+	.toggle {
+		display: block;
+		background-color: #254441;
+		padding:14px 20px;	
+		color:#FFF;
+		font-size: 17px;
+		text-decoration:none;
+		border:none;
+	
+	}
+	.right{
+		text-align: right;
+	}
+
+	.toggle:hover {
+		background-color: #000000;
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+	/* Change menu item's width to 100% */
+	nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+		background-color: #000000;
+	}
+  
+	nav ul li ul li .toggle,
+	nav ul ul a,
+  nav ul ul ul a{
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px; 
+	}
+  
+  
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		background-color: #212121; 
+	}
+
+	/* Hide Dropdowns by Default */
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+		
+	/* Hide menus on hover */
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+		
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+	.hero{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+		margin-bottom: 2rem;
+		
+		&__main-pic{
+			width: 250px;
+			height: auto;
+			margin: 15px 0;
+		}
+		&__product {
+			width: 94%;
+		}
+
+		&__product h1{
+			margin-top: 10px;
+			font-family: bold;
+			font-size: 35px;
+			color: $color-primery-dark;
+		}
+		
+    }
+    
+    br{
+        display: none;
+    }
+    .product-description{
+		line-height: 28px;
+        margin: auto;
+		text-align: justify; 
+		color:$color-primery-dark; 
+    }
+    .links{
+        margin-top: 20px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+
+        font-size: 14px;
+    }
+    .links a:first-child{
+        margin-right: 0;
+        margin-bottom: 10px; 
+         
+	}
+	
+	/*------------------------------
+			category
+	--------------------------------*/
+
+	.section{
+		margin-top: 4rem;
+		padding: 0;
+	
+	
+		&__category-name{
+			max-width: 90%; 
+			margin: auto;
+			padding-bottom: 3rem;
+			font-size: 25px;
+			text-align: center;
+			font-family: normal;
+		}
+		&__category-name div{
+			height: 2px;
+			background-color: $color-primery-light;
+		}
+		&__category{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			max-width: 98%; 
+			margin: auto;       
+		}
+		&__category li{       
+			margin-bottom: 2rem;
+			box-shadow: 1px 0 10px 0 black;
+		}
+	
+		&__category li:hover{
+			transform: none;
+		}	
+	
+	}
+	.sale{
+		height: 130vh;
+		
+		&__future{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			height: 90vh;		  
+		}
+		&__future img{
+			margin-top: 20px;
+			height: 340px;
+			width: 300px;
+		 }
+		 &__future img:last-child{
+			margin-top: -300px;
+			margin-left: 200px;
+			height: 80px;
+			width: 70px;
+			
+		 }
+	}
+
+	.all-product{
+		max-width: 98%;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		flex-direction: column;
+	  
+			&__details{
+				padding: 40px 30px 50px 30px;
+				border: 1px solid $color-primery-light;
+				transition: transform .4s;
+				margin-bottom: 3rem;
+			}
+			&__details:hover{
+				transform: scale(1);
+			  }
+
+			  &__details img{				
+				height: 210px;
+				width: 180px;
+			  } 
+			br{
+				display: inline;
+			}
+
+			.text{
+				display: none;
+			}
+			&__details div{
+				text-align: center;
+				
+			}
+			&__details div a{
+				width: 200px;
+				display: block;
+
+				margin-bottom: -30px;
+				background-color: $color-white;
+				border: 1px solid $color-primery;
+				flex-direction: column;
+			}
+			.pro-heart{
+				display: inline-block;
+				right: 0;
+				font-size: 20px;
+				margin-left: 110px;
+			  }
+	}
+
+	.footer{
+		max-width: 100%;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		&__mini-menu div:first-child{
+			display: flex;
+			align-items: center; 
+			flex-direction: column;       
+		}
+		&__mini-menu div:last-child{
+			display: flex;
+			align-items: center;        
+			justify-content: space-around;  
+			margin-top: 20px;      
+		}
+
+		&__mini-menu div a{
+			font-family: normal;
+			color: $color-primery-light;
+			padding: 11px 0;
+		}
+		&__mini-menu div a:last-child{
+			padding: 0 0px;
+		}
+		&__about p{
+			width: 310px;
+		}
+	}	
+
+
+}
+
+@media all and (max-width: 550px) {
+
+	.fade-in{
+		opacity: 1;
+	}
+	.row-all{
+		height: 50px;
+		max-width: 96%;		
+	}
+	.row-log a:first-child{
+		margin-right: 15px;
+
+	}
+	.row-log a:last-child{
+		margin-right: 0px;
+	}
+
+	.row-mix a{
+		margin-right: 0;
+		padding: 5px;
+	}
+	.icon-social{
+		display: none;
+	}
+	nav ul li {
+		display:block;
+		width: 94%;
+	}
+
+
+	.section{
+
+		&__category-name{
+			font-size: 18px;
+		   
+			font-family: normal;
+		}
+			
+		&__category a li img{
+			height: 200px;
+			width: 180px;
+			padding: 25px 55px 0 55px;
+		}			
+		
+	
+	}
+	.sale{	
+		
+		&__future{
+			width: 90%;
+			margin:auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+
+		}
+		&__future img{
+			margin-top: 20px;
+			height: 310px;
+			width: 300px;
+		}
+	}
+	.links-sale{
+		padding-top: 30px;
+		text-align: center;
+
+	}
+
+
+	.headphone{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: $color-primery-light;
+		flex-direction: column;
+	
+		&__apple{
+			margin-top: -3px;	
+			height: 65vh;
+			width: 100%;
+		}
+
+
+		&__cabel{
+			margin-top: -3px;			
+			height: 65vh;
+			width: 100%;
+	
+		}
+		&__head{
+			margin-top: -3px;			
+				height: 65vh;
+				width: 100%;		
+			}
+		}
+
+
+}
+
+@media all and (max-width: 350px){
+	.sale{
+		height: 160vh;
+		
+		&__future{	
+			height: 120vh;
+		}
+
+	}
+}

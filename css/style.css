@@ -590,7 +590,7 @@ li > a:only-child:after {
 .cart {
   position: -webkit-sticky;
   position: sticky;
-  top: 100px;
+  top: 0;
   background-color: #fff;
   padding: 2px 30px;
   border-radius: 2px; }
@@ -603,6 +603,14 @@ li > a:only-child:after {
 
 .cart a span {
   padding-left: 5px; }
+
+.buy {
+  cursor: pointer;
+  display: inline;
+  padding: 7px 20px;
+  border: 1px solid #254441;
+  border-radius: 1px;
+  font-family: normal; }
 
 @media (max-width: 500px) {
   nav h2 {

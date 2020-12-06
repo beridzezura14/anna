@@ -252,7 +252,8 @@ nav ul ul li {
   width: 270px;
   float: none;
   display: list-item;
-  position: relative; }
+  position: relative;
+  z-index: 1; }
 
 /* Second, Third and more Tiers	
  * We move the 2nd and 3rd etc tier dropdowns to the left

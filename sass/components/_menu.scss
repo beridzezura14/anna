@@ -55,6 +55,7 @@ nav a {
 	text-decoration:none;
 	transition: .8s;
 	font-family: normal;
+
 }
 
 
@@ -73,11 +74,13 @@ nav ul ul {
 	position: absolute; 
 	/* has to be the same number as the "line-height" of "nav a" */
 	top: 45px; 
+
 }
 	
 /* Display Dropdowns on Hover */
 nav ul li:hover > ul {
 	display:inherit;
+	
 }
 	
 /* Fisrt Tier Dropdown */
@@ -86,6 +89,7 @@ nav ul ul li {
 	float:none;
 	display:list-item;
 	position: relative;
+	z-index: 1;
 }
 
 /* Second, Third and more Tiers	

@@ -108,19 +108,19 @@
     margin-bottom: 50px;
 }
 
-.price{
+.price-1{
     display: flex;
     align-items: center;
 
     margin-bottom: 1rem;
 }
-.price p:first-child{
+.price-1 p:first-child{
     font-size: 25px;
 }
-.price span{
+.price-1 span{
     color:$color-secendery
 }
-.price p:last-child{
+.price-1 p:last-child{
     text-decoration: line-through;
     margin-left: 10px;
 }

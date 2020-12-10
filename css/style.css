@@ -635,7 +635,7 @@ li > a:only-child:after {
   justify-content: space-between;
   color: #dee0e0; }
   .headphone__apple {
-    background: linear-gradient(rgba(20, 37, 56, 0.767), rgba(0, 0, 0, 0.74)), url("../img/2.jpeg") center no-repeat;
+    background: linear-gradient(rgba(20, 37, 56, 0.767), rgba(0, 0, 0, 0.74)), url("../img/3.png") center no-repeat;
     height: 60vh;
     width: 110vh;
     background-size: cover;
@@ -661,7 +661,7 @@ li > a:only-child:after {
   .headphone__cabel {
     padding: 0;
     margin: 0;
-    background: linear-gradient(rgba(20, 37, 56, 0.767), rgba(0, 0, 0, 0.74)), url("../img/1.jpeg") no-repeat center;
+    background: linear-gradient(rgba(20, 37, 56, 0.767), rgba(0, 0, 0, 0.74)), url("../img/1.png") no-repeat center;
     height: 60vh;
     width: 110vh;
     background-size: cover; }
@@ -686,7 +686,7 @@ li > a:only-child:after {
   .headphone__head {
     padding: 0;
     margin: 0;
-    background: linear-gradient(rgba(20, 37, 56, 0.767), rgba(0, 0, 0, 0.74)), url("../img/1.jpg") center;
+    background: linear-gradient(rgba(20, 37, 56, 0.767), rgba(0, 0, 0, 0.74)), url("../img/2.png") center;
     height: 60vh;
     width: 110vh;
     background-size: cover; }

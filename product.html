@@ -47,13 +47,12 @@
         <div class="row-2__row-2-1">
             
             <div class="contact"> <ion-icon class="phone" name="call-outline"></ion-icon> 555 11 22 33</div>
-            <div class="cart"> 
-                <ion-icon class="cart-icon" name="bag-outline"></ion-icon> 
-                <div>
-                    <span>cart</span>
-                    <span>0.00</span>
-                </div>
-            </div>
+            <li class="cart">
+                <a href="cart.html">
+                    <ion-icon class="cart-icon" name="bag-outline"></ion-icon>Cart<span>0</span>
+                   
+                </a>
+            </li>
         </div>
     </div>
 
@@ -180,14 +179,14 @@
                 <h1>Beat Studio pro 2</h1>
                 <div class="price-number">
                     <div class="price">
-                        <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
+                        <p>100.00 <span>GEL</span> </p><p> <span></span> </p>
                     </div>
                     <div class="number">
                         <form action="/action_page.php">
                             <label for="quantity">რაოდენობა:</label>
                             <input type="number" id="quantity" name="quantity" min="1" max="15">
                         </form>
-                        <a href="#">კალათაში დამატება</a>
+                        <a href="#" class="add-cart">კალათაში დამატება</a>
                         <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
                     </div>
                 </div>
@@ -299,21 +298,6 @@
     </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    
     <footer>
         <div class="footer">  
@@ -356,6 +340,7 @@
     </script>
 <script src="js/scroll.js"></script>
 <script src="js/slide.js"></script>
+<script src="js/main-project.js"></script>
     <script>
         AOS.init();
     </script>

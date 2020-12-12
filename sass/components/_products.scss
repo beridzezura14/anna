@@ -13,7 +13,7 @@ li > a:only-child:after { content: ''; }
 
       &__details{
         position: relative;
-          padding: 20px 30px;
+          padding: 10px 20px;
           border: 1px solid $color-primery-light;
           transition: transform .4s;
           margin-bottom: 3rem;
@@ -97,7 +97,7 @@ li > a:only-child:after { content: ''; }
         cursor: pointer;
         display: inline;
         font-family: normal;
-        padding: 5px 5px;
+        padding: 1px 1px;
         color: $color-primery;
         transition: .4s;
       }

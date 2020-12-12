@@ -2,29 +2,29 @@ let carts = document.querySelectorAll('.add-cart');
 
 let products = [ 
     {
-        name: "main-pic",
-        tag: "main-pic",
+        name: "nuraphone",
+        tag: "nuraphone",
         price: 250,
         inCart: 0
     },
     {
-        name: "cat-2",
-        tag: "cat-2",
+        name: "beat studio s1",
+        tag: "beatstudios1",
         price: 90,
         inCart: 0
     },
     {
-        name: "cat-3",
-        tag: "cat-3",
+        name: "beat studio pro",
+        tag: "beatstudiopro",
         price: 100,
         inCart: 0
     },
     {
-        name: "1",
-        tag: "1",
-        price: 70,
+        name: "beat studio s2",
+        tag: "beatstudios2",
+        price: 100,
         inCart: 0
-    }
+    },
 ];
 
 

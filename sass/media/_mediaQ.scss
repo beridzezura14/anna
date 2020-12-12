@@ -241,6 +241,7 @@
          
 	}
 	
+	
 	/*------------------------------
 			category
 	--------------------------------*/
@@ -340,7 +341,6 @@
 			&__details div a{
 				width: 200px;
 				display: block;
-
 				margin-bottom: -30px;
 				background-color: $color-white;
 				border: 1px solid $color-primery;
@@ -350,8 +350,8 @@
 				display: inline-block;
 				right: 0;
 				font-size: 20px;
-				margin-left: 110px;
-			  }
+				margin-left: 90px;
+			}
 	}
 
 	.footer{
@@ -417,6 +417,9 @@
 		width: 94%;
 	}
 
+	.links-sale a:last-child{
+		margin-right: 0px;
+	}
 
 	.section{
 

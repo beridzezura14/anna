@@ -514,6 +514,23 @@ li > a:only-child:after {
   .all-product br {
     display: none; }
 
+.more-and-more {
+  max-width: 90%;
+  margin: auto;
+  padding: 7px 30px;
+  border: 1px solid #254441;
+  border-radius: 3px;
+  color: #254441;
+  background-color: #fff;
+  font-family: normal;
+  transition: .4s; }
+
+.more-and-more:hover {
+  border: 1px solid #254441;
+  color: #fff;
+  background-color: #254441;
+  transition: .4s; }
+
 .container-products {
   max-width: 650px;
   justify-content: space-around;

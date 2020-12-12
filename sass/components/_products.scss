@@ -11,6 +11,7 @@ li > a:only-child:after { content: ''; }
   align-items: center;
   justify-content: space-around;
 
+      
       &__details{
         position: relative;
           padding: 10px 20px;
@@ -109,12 +110,25 @@ li > a:only-child:after { content: ''; }
       br{
         display: none;
       }
-
-
 }
 
-
-
+.more-and-more{
+  max-width: 90%;
+  margin: auto;
+  padding: 7px 30px;
+  border: 1px solid $color-primery-dark;
+  border-radius: 3px;
+  color: $color-primery-dark;
+  background-color: $color-white;
+  font-family: normal;
+  transition: .4s;
+}
+.more-and-more:hover{  
+  border: 1px solid $color-primery-dark;
+  color: $color-white;
+  background-color: $color-primery-dark;
+  transition: .4s;
+}
 
 
 

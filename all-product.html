@@ -49,8 +49,7 @@
             <div class="contact"> <ion-icon class="phone" name="call-outline"></ion-icon> 555 11 22 33</div>
             <li class="cart">
                 <a href="cart.html">
-                    <ion-icon class="cart-icon" name="bag-outline"></ion-icon>Cart<span>0</span>
-                   
+                    <ion-icon class="cart-icon" name="bag-outline"></ion-icon><span class="cart-number"> 0</span>
                 </a>
             </li>
         </div>
@@ -58,6 +57,7 @@
 
 
 
+    <navbar class="navbar">
     <nav>
         <label for="drop" class="toggle right">Menu</label>
         <input type="checkbox" id="drop" />
@@ -126,7 +126,7 @@
             </ul>
     </nav> 
 
-
+    </navbar>
 
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 
@@ -184,7 +184,7 @@
                         <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
                     </div>
                 </li>
-                <li>
+                <li class="left-side-product-inside">
                     <img class="left-side-img" src="img/main-pic.png" alt="">
                     <h5>ყურსასმენები</h5>
                     <div class="des-line"></div>
@@ -200,7 +200,7 @@
                         <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
                     </div>
                 </li>
-                <li>
+                <li class="left-side-product-inside">
                     <img class="left-side-img" src="img/main-pic.png" alt="">
                     <h5>ყურსასმენები</h5>
                     <div class="des-line"></div>
@@ -221,10 +221,30 @@
 
     </div>    
 
-    <section class="flex">
+    <section class="flex">        
+            <p class="all-product-head">პროდუქცია</p>
+      
         <div class="flex-col">
             <div class="flex-col-1"> 
-                <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute;"> Sale</span>
+               
+                <img src="img/cat-1.png" alt="">
+               
+                <div class="flex-col-1__colomne">
+                    <h5>ყურსასმენები</h5>
+                    <div class="des-line"></div>
+                    <h1>Nuraphone s5</h1>
+                    <div class="price-1">
+                        <p>100.00 <span>GEL</span> </p><p><span></span> </p>
+                    </div>
+                    <div class="buttons">
+                        <a href="product.html">ვრცლად</a>
+                        <a href="#" class="add-cart">კალათაში დამატება</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="flex-col-1"> 
+                <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute; left: 0;"> Sale</span>
                 <img src="img/cat-1.png" alt="">
                
                 <div class="flex-col-1__colomne">
@@ -237,111 +257,171 @@
                     <div class="buttons">
                         <a href="product.html">ვრცლად</a>
                         <a href="#" class="add-cart">კალათაში დამატება</a>
-                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
+                        
                     </div>
                 </div>
-            </div>
-            <div style="margin-top: 2rem;" class="des-line"></div>
+            </div>            
+            
         </div>
-        <div class="flex-col">
-            <div class="flex-col-1">
-                <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute;"> Sale</span>
-                <img src="img/cat-2.png" alt="">
-                <div class="flex-col-1__colomne">
-                    <h5>ყურსასმენები</h5>
-                    <div class="des-line"></div>
-                    <h1>Nuraphone s5</h1>
-                    <div class="price-1">
-                        <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
-                    </div>
-                    <div class="buttons ">
-                        <a href="">ვრცლად</a>
-                        <a href="" class="add-cart">კალათაში დამატება</a>
-                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
+
+            <div class="flex-col">
+                <div class="flex-col-1"> 
+                    <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute; left: 0;"> Sale</span>
+                    <img src="img/cat-1.png" alt="">
+                   
+                    <div class="flex-col-1__colomne">
+                        <h5>ყურსასმენები</h5>
+                        <div class="des-line"></div>
+                        <h1>Nuraphone s5</h1>
+                        <div class="price-1">
+                            <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="product.html">ვრცლად</a>
+                            <a href="#" class="add-cart">კალათაში დამატება</a>
+                            
+                        </div>
                     </div>
                 </div>
+                <div class="flex-col-1"> 
+                    
+                    <img src="img/cat-1.png" alt="">
+                   
+                    <div class="flex-col-1__colomne">
+                        <h5>ყურსასმენები</h5>
+                        <div class="des-line"></div>
+                        <h1>Nuraphone s5</h1>
+                        <div class="price-1">
+                            <p>100.00 <span>GEL</span> </p><p><span></span> </p>
+                        </div>
+                        <div class="buttons">
+                            <a href="product.html">ვრცლად</a>
+                            <a href="#" class="add-cart">კალათაში დამატება</a>
+                            
+                        </div>
+                    </div>
+                </div>          
+                
             </div>
-            <div style="margin-top: 2rem;" class="des-line"></div>
-        </div>
-        <div class="flex-col">
-            <div class="flex-col-1">
-                <img src="img/main-pic.png" alt="">
-                <div class="flex-col-1__colomne">
-                    <h5>ყურსასმენები</h5>
-                    <div class="des-line"></div>
-                    <h1>Nuraphone s5</h1>
-                    <div class="price-1">
-                        <p>100.00 <span>GEL</span> </p><p><span></span> </p>
+
+                <div class="flex-col">
+                    <div class="flex-col-1"> 
+                        <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute; left: 0;"> Sale</span>
+                        <img src="img/cat-1.png" alt="">
+                       
+                        <div class="flex-col-1__colomne">
+                            <h5>ყურსასმენები</h5>
+                            <div class="des-line"></div>
+                            <h1>Nuraphone s5</h1>
+                            <div class="price-1">
+                                <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
+                            </div>
+                            <div class="buttons">
+                                <a href="product.html">ვრცლად</a>
+                                <a href="#" class="add-cart">კალათაში დამატება</a>
+                                
+                            </div>
+                        </div>
                     </div>
-                    <div class="buttons">
-                        <a href="">ვრცლად</a>
-                        <a href="">კალათაში დამატება</a>
-                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
-                    </div>
+                    <div class="flex-col-1"> 
+                        <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute; left: 0;"> Sale</span>
+                        <img src="img/cat-1.png" alt="">
+                       
+                        <div class="flex-col-1__colomne">
+                            <h5>ყურსასმენები</h5>
+                            <div class="des-line"></div>
+                            <h1>Nuraphone s5</h1>
+                            <div class="price-1">
+                                <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
+                            </div>
+                            <div class="buttons">
+                                <a href="product.html">ვრცლად</a>
+                                <a href="#" class="add-cart">კალათაში დამატება</a>
+                                
+                            </div>
+                        </div>
+                    </div>            
+                    
                 </div>
-            </div>
-            <div style="margin-top: 2rem;" class="des-line"></div>
-        </div>
-        <div class="flex-col">
-            <div class="flex-col-1">
-                <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute;"> Sale</span>
-                <img src="img/main-pic.png" alt="">
-                <div class="flex-col-1__colomne">
-                    <h5>ყურსასმენები</h5>
-                    <div class="des-line"></div>
-                    <h1>Nuraphone s5</h1>
-                    <div class="price-1">
-                        <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
+                <div class="flex-col">
+                    <div class="flex-col-1"> 
+                        <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute; left: 0;"> Sale</span>
+                        <img src="img/cat-1.png" alt="">
+                       
+                        <div class="flex-col-1__colomne">
+                            <h5>ყურსასმენები</h5>
+                            <div class="des-line"></div>
+                            <h1>Nuraphone s5</h1>
+                            <div class="price-1">
+                                <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
+                            </div>
+                            <div class="buttons">
+                                <a href="product.html">ვრცლად</a>
+                                <a href="#" class="add-cart">კალათაში დამატება</a>
+                                
+                            </div>
+                        </div>
                     </div>
-                    <div class="buttons">
-                        <a href="">ვრცლად</a>
-                        <a href="">კალათაში დამატება</a>
-                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
-                    </div>
+                    <div class="flex-col-1"> 
+                        <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute; left: 0;"> Sale</span>
+                        <img src="img/cat-1.png" alt="">
+                       
+                        <div class="flex-col-1__colomne">
+                            <h5>ყურსასმენები</h5>
+                            <div class="des-line"></div>
+                            <h1>Nuraphone s5</h1>
+                            <div class="price-1">
+                                <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
+                            </div>
+                            <div class="buttons">
+                                <a href="product.html">ვრცლად</a>
+                                <a href="#" class="add-cart">კალათაში დამატება</a>
+                                
+                            </div>
+                        </div>
+                    </div>            
+                    
                 </div>
-            </div>
-            <div style="margin-top: 2rem;" class="des-line"></div>
-        </div>
-        <div class="flex-col">
-            <div class="flex-col-1">
-                <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute;"> Sale</span>
-                <img src="img/main-pic.png" alt="">
-                <div class="flex-col-1__colomne">
-                    <h5>ყურსასმენები</h5>
-                    <div class="des-line"></div>
-                    <h1>Nuraphone s5</h1>
-                    <div class="price-1">
-                        <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
+                <div class="flex-col">
+                    <div class="flex-col-1"> 
+
+                        <img src="img/cat-1.png" alt="">
+                       
+                        <div class="flex-col-1__colomne">
+                            <h5>ყურსასმენები</h5>
+                            <div class="des-line"></div>
+                            <h1>Nuraphone s5</h1>
+                            <div class="price-1">
+                                <p>100.00 <span>GEL</span> </p><p><span></span> </p>
+                            </div>
+                            <div class="buttons">
+                                <a href="product.html">ვრცლად</a>
+                                <a href="#" class="add-cart">კალათაში დამატება</a>
+                                
+                            </div>
+                        </div>
                     </div>
-                    <div class="buttons">
-                        <a href="">ვრცლად</a>
-                        <a href="">კალათაში დამატება</a>
-                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
-                    </div>
+                    <div class="flex-col-1"> 
+                        
+                        <img src="img/cat-1.png" alt="">
+                       
+                        <div class="flex-col-1__colomne">
+                            <h5>ყურსასმენები</h5>
+                            <div class="des-line"></div>
+                            <h1>Nuraphone s5</h1>
+                            <div class="price-1">
+                                <p>100.00 <span>GEL</span> </p><p><span></span> </p>
+                            </div>
+                            <div class="buttons">
+                                <a href="product.html">ვრცლად</a>
+                                <a href="#" class="add-cart">კალათაში დამატება</a>
+                                
+                            </div>
+                        </div>
+                    </div>            
+                    
                 </div>
-            </div>
-            <div style="margin-top: 2rem;" class="des-line"></div>
-        </div>
-        <div class="flex-col">
-            <div class="flex-col-1">
-                <span style="color:white; background-color: red;padding: 5px 10px; top: 20px; position:absolute;"> Sale</span>
-                <img src="img/main-pic.png" alt="">
-                <div class="flex-col-1__colomne">
-                    <h5>ყურსასმენები</h5>
-                    <div class="des-line"></div>
-                    <h1>Nuraphone s5</h1>
-                    <div class="price-1">
-                        <p>100.00 <span>GEL</span> </p><p>150.00 <span>GEL</span> </p>
-                    </div>
-                    <div class="buttons">
-                        <a href="">ვრცლად</a>
-                        <a href="">კალათაში დამატება</a>
-                        <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
-                    </div>
-                </div>
-            </div>
-            <div style="margin-top: 2rem;" class="des-line"></div>
-        </div>
+                    <div style="margin: 2rem 0;  " class="des-line"></div>
 
     </section>
     </section>
@@ -349,6 +429,8 @@
 
 
 
+
+    <a href="#"><ion-icon style="font-size: 16px;" name="heart-outline"></ion-icon></a>
 
 
 

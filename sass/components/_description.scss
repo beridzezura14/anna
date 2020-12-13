@@ -95,6 +95,8 @@
 }
 
 
+
+
 .product-description h5{
     font-size: 13px;
 }
@@ -115,7 +117,7 @@
     margin-bottom: 1rem;
 }
 .price-1 p:first-child{
-    font-size: 25px;
+    font-size: 15px;
 }
 .price-1 span{
     color:$color-secendery
@@ -123,6 +125,7 @@
 .price-1 p:last-child{
     text-decoration: line-through;
     margin-left: 10px;
+    font-size: 13px;
 }
 
 .number{
@@ -130,8 +133,9 @@
     justify-content: center;
     align-items: center;
 
-    a{
-        padding: 10px 30px;
+    a{  
+      font-size: 13px;
+        padding:5px 15px;
         margin-left: 20px;
         background-color: $color-primery-dark;
         color: $color-white;

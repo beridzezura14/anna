@@ -2,7 +2,9 @@
 .row-2{
 	display: flex;
 	align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 86%;
+    margin: auto;
     
 
         &__logo img{
@@ -85,4 +87,12 @@
 	display: flex;
 	flex-direction: column;
 }
+.cart-number{
+    position: absolute;
+    left: 35px;
+    top: 1px;
+    color: $color-primery;
+    font-size: 17px;
+}
+
 

@@ -8,8 +8,15 @@
 }
 
 /* Giving a background-color to the nav container. */
+.navbar{
+	background-color: #254441;
+	width: 100%;
+	display: block;
+
+}
 nav { 
-	margin:0;
+	max-width: 86%;
+	margin:auto;
 	padding: 0;
 	background-color: #254441;
 
@@ -48,10 +55,11 @@ nav ul li {
 
 /* Styling the links */
 nav a {
+	
 	display:block;
 	padding:15px 20px;	
 	color:#FFF;
-	font-size: 14px;
+	font-size: 13px;
 	text-decoration:none;
 	transition: .8s;
 	font-family: normal;

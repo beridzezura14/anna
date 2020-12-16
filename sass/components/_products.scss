@@ -20,7 +20,7 @@ li > a:only-child:after { content: ''; }
           margin-bottom: 3rem;
       }
       &__details:hover{
-        transform: scale(1.03);
+        transform: scale(1.01);
       }
 
       &__details img{
@@ -84,10 +84,12 @@ li > a:only-child:after { content: ''; }
       }
 
       &__details div a{
+        font-size: 14px;
         font-family: normal;
         padding: 5px 5px;
         color: $color-primery;
         transition: .4s;
+        border: 1px solid $color-primery;
       }
       &__details div a:hover{
         color: $color-secendery;
@@ -95,12 +97,14 @@ li > a:only-child:after { content: ''; }
       }
 
       &__details div p{
+        font-size: 14px;
         cursor: pointer;
         display: inline;
         font-family: normal;
-        padding: 1px 1px;
+        padding: 5px 5px;
         color: $color-primery;
         transition: .4s;
+        border: 1px solid $color-primery;
       }
       &__details div p:hover{
         color: $color-secendery;

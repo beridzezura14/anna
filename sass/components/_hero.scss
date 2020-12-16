@@ -2,7 +2,6 @@
 .hero{
     max-width: 86%;
     margin: auto;
-    padding-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -53,12 +52,13 @@
     font-size: 14px;
 }
 .links a{
-    padding: 10px 20px;
+    padding: 7px 20px;
     border: 1px solid #254441;
     background-color: white;
     color:  #101d2c;  
     transition: .4s;
-    margin-right: 10px;    
+    margin-right: 10px; 
+    font-size: 13px;   
 }
 
 .links a:hover{
@@ -70,14 +70,15 @@
 .links p{
     cursor: pointer;
     display: inline;
-    padding: 10px 20px;
+    padding: 7px 20px;
     border: 1px solid #254441;
     background-color:#254441;
     color: white; 
-    transition: .4s;   
+    transition: .4s; 
+    font-size: 13px;  
 }
 .links p:hover{
-    padding: 10px 20px;
+    padding: 7px 20px;
     background-color: white;
     color:   #254441; 
     border: 1px solid #254441; 

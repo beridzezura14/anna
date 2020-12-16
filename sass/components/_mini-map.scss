@@ -1,0 +1,25 @@
+.page-mini-map{
+    display: flex;
+    padding: 5px 20px 5px 0;
+    align-items: center;
+    max-width: 86%;
+    margin: auto;
+    justify-content: flex-end;
+    
+
+    div{
+        font-family: normal;
+        color: $color-primery-dark;
+        font-size: 10px;
+    }
+    a{
+        padding: 0 10px;
+        font-size: 10px;
+        font-family: normal;
+        color: $color-primery-dark;
+        
+    }
+    i{
+        padding: 0 10px 0 0;
+    }
+}

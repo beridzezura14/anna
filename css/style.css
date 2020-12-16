@@ -6,6 +6,9 @@
   font-family: bold;
   src: url(../fonts/normal-bold.ttf); }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-size: 15px;
   color: #585858;
@@ -290,7 +293,6 @@ li > a:only-child:after {
 .hero {
   max-width: 86%;
   margin: auto;
-  padding-top: 30px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -330,12 +332,13 @@ li > a:only-child:after {
   font-size: 14px; }
 
 .links a {
-  padding: 10px 20px;
+  padding: 7px 20px;
   border: 1px solid #254441;
   background-color: white;
   color: #101d2c;
   transition: .4s;
-  margin-right: 10px; }
+  margin-right: 10px;
+  font-size: 13px; }
 
 .links a:hover {
   background-color: #254441;
@@ -346,14 +349,15 @@ li > a:only-child:after {
 .links p {
   cursor: pointer;
   display: inline;
-  padding: 10px 20px;
+  padding: 7px 20px;
   border: 1px solid #254441;
   background-color: #254441;
   color: white;
-  transition: .4s; }
+  transition: .4s;
+  font-size: 13px; }
 
 .links p:hover {
-  padding: 10px 20px;
+  padding: 7px 20px;
   background-color: white;
   color: #254441;
   border: 1px solid #254441;
@@ -467,7 +471,7 @@ li > a:only-child:after {
     transition: transform .4s;
     margin-bottom: 3rem; }
   .all-product__details:hover {
-    transform: scale(1.03); }
+    transform: scale(1.01); }
   .all-product__details img {
     display: flex;
     align-items: center;
@@ -511,20 +515,24 @@ li > a:only-child:after {
   .all-product p span {
     color: orange; }
   .all-product__details div a {
+    font-size: 14px;
     font-family: normal;
     padding: 5px 5px;
     color: #2c5854;
-    transition: .4s; }
+    transition: .4s;
+    border: 1px solid #2c5854; }
   .all-product__details div a:hover {
     color: orange;
     transition: .4s; }
   .all-product__details div p {
+    font-size: 14px;
     cursor: pointer;
     display: inline;
     font-family: normal;
-    padding: 1px 1px;
+    padding: 5px 5px;
     color: #2c5854;
-    transition: .4s; }
+    transition: .4s;
+    border: 1px solid #2c5854; }
   .all-product__details div p:hover {
     color: orange;
     transition: .4s; }
@@ -1089,6 +1097,25 @@ footer {
   .sidenav a {
     font-size: 18px; } }
 
+.page-mini-map {
+  display: flex;
+  padding: 5px 20px 5px 0;
+  align-items: center;
+  max-width: 86%;
+  margin: auto;
+  justify-content: flex-end; }
+  .page-mini-map div {
+    font-family: normal;
+    color: #254441;
+    font-size: 10px; }
+  .page-mini-map a {
+    padding: 0 10px;
+    font-size: 10px;
+    font-family: normal;
+    color: #254441; }
+  .page-mini-map i {
+    padding: 0 10px 0 0; }
+
 @media all and (max-width: 1440px) {
   .fade-in {
     opacity: 1; }
@@ -1113,8 +1140,8 @@ footer {
       margin: auto; }
     .section__category a li img {
       border-radius: 10px;
-      height: 370px;
-      width: 350px;
+      height: 410px;
+      width: 390px;
       padding: 25px 35px 0 35px; }
   .all-product {
     max-width: 90%;
@@ -1127,8 +1154,8 @@ footer {
       display: flex;
       align-items: center;
       margin: auto;
-      height: 410px;
-      width: 380px;
+      height: 420px;
+      width: 390px;
       transition: .5s ease;
       backface-visibility: hidden; }
   .all-category {

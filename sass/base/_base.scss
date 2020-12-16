@@ -7,6 +7,9 @@
 	font-family: bold;
 	src:url(../fonts/normal-bold.ttf);
 }
+html{
+	scroll-behavior: smooth;
+}
 body {
 	font-size:15px;
 	color: #585858;

@@ -2,8 +2,8 @@ let carts = document.querySelectorAll('.add-cart');
 
 let products = [ 
     {
-        name: "cat-1",
-        tag: "cat-1",
+        name: "main-pic",
+        tag: "main-pic",
         price: 100,
         inCart: 0
     },

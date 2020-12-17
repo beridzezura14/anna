@@ -328,6 +328,12 @@ li > a:only-child:after {
 .nura {
   color: #9c1734; }
 
+.hero-price {
+  font-size: 22px;
+  color: #2c5854; }
+  .hero-price span {
+    color: orange; }
+
 .links {
   margin-top: 60px;
   font-family: normal;
@@ -636,7 +642,6 @@ li > a:only-child:after {
   width: 13%; }
 
 .cart {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: #fff;

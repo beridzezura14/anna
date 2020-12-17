@@ -231,7 +231,6 @@ li > a:only-child:after { content: ''; }
   width: 13%;
 }
 .cart{
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: $color-white;

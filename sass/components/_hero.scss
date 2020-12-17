@@ -46,6 +46,16 @@
 .nura{
     color: rgb(156, 23, 52);    
 }
+.hero-price{
+    
+    font-size: 22px;
+    color: $color-primery;
+
+    span{
+        color: $color-secendery;
+    }
+}
+
 .links{
     margin-top: 60px;
     font-family: normal;

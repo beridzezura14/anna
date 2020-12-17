@@ -83,7 +83,8 @@ body {
       transition: .4s; }
     .row-1 .row-all__row-mix {
       display: flex;
-      align-items: center; }
+      align-items: center;
+      justify-content: center; }
     .row-1 .row-all__row-mix a {
       font-size: 13px;
       color: white;
@@ -94,7 +95,8 @@ body {
       transition: .4s; }
 
 .icon-social {
-  margin-left: 15px; }
+  margin-left: 15px;
+  margin-top: 5px; }
 
 .icon {
   margin-right: 7px;
@@ -337,8 +339,11 @@ li > a:only-child:after {
   background-color: white;
   color: #101d2c;
   transition: .4s;
-  margin-right: 10px;
-  font-size: 13px; }
+  font-size: 13px;
+  text-align: center; }
+
+.sale-more {
+  margin-right: 10px; }
 
 .links a:hover {
   background-color: #254441;
@@ -871,7 +876,8 @@ footer {
 
 .fade img {
   height: 350px;
-  width: 280px; }
+  width: 280px;
+  transition: .4s; }
 
 .product-description h5 {
   font-size: 13px; }
@@ -1116,6 +1122,10 @@ footer {
   .page-mini-map i {
     padding: 0 10px 0 0; }
 
+@media all and (max-width: 750px) {
+  .page-mini-map {
+    display: none; } }
+
 @media all and (max-width: 1440px) {
   .fade-in {
     opacity: 1; }
@@ -1270,7 +1280,8 @@ footer {
     padding: 0;
     display: flex;
     flex-direction: column;
-    font-size: 14px; }
+    font-size: 14px;
+    text-align: center; }
   .links a:first-child {
     margin-right: 0;
     margin-bottom: 10px; }
@@ -1343,6 +1354,13 @@ footer {
     .all-product__details div {
       text-align: center; }
     .all-product__details div a {
+      width: 200px;
+      display: block;
+      margin-bottom: -30px;
+      background-color: #fff;
+      border: 1px solid #2c5854;
+      flex-direction: column; }
+    .all-product__details div p {
       width: 200px;
       display: block;
       margin-bottom: -30px;

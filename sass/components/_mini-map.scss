@@ -23,3 +23,10 @@
         padding: 0 10px 0 0;
     }
 }
+
+
+@media all and (max-width: 750px) {
+    .page-mini-map{
+        display: none;
+    }
+}

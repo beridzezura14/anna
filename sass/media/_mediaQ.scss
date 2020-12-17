@@ -70,6 +70,7 @@
 	.flex-col-1{
 		padding: 10px 30px;
 	}
+	
 
 }
 
@@ -233,8 +234,8 @@
         padding: 0;
         display: flex;
         flex-direction: column;
-
-        font-size: 14px;
+		font-size: 14px;
+		text-align: center;
     }
     .links a:first-child{
         margin-right: 0;
@@ -347,6 +348,14 @@
 				border: 1px solid $color-primery;
 				flex-direction: column;
 			}
+			&__details div p{
+				width: 200px;
+				display: block;
+				margin-bottom: -30px;
+				background-color: $color-white;
+				border: 1px solid $color-primery;
+				flex-direction: column;
+			}
 			.pro-heart{
 				display: inline-block;
 				right: 0;
@@ -421,7 +430,6 @@
 	.links-sale a:last-child{
 		margin-right: 0px;
 	}
-
 	.section{
 
 		&__category-name{

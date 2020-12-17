@@ -28,6 +28,7 @@
 		&__row-mix{	
 			display: flex;	
 			align-items: center;
+			justify-content: center;
 		}
 		&__row-mix a{
 			font-size: 13px;
@@ -45,6 +46,7 @@
 
 .icon-social{
 	margin-left: 15px;
+	margin-top: 5px;
 }
 .icon {
 	margin-right: 7px;	

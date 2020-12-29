@@ -1063,7 +1063,7 @@ footer {
   margin-right: 20px;
   margin-bottom: 20px;
   position: relative;
-  border: 1px solid whitesmoke;
+  border: 1px solid #dee0e0;
   padding: 10px 70px;
   justify-content: space-between; }
   .flex-col-1__columne {
@@ -1100,6 +1100,41 @@ footer {
 .all-produvt-page {
   display: flex;
   margin: 0 20px; }
+
+@media all and (max-width: 1200px) {
+  .sidenav {
+    width: 100%;
+    z-index: 1;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    padding: 50px 20px;
+    font-family: normal;
+    margin-top: 4rem; }
+    .sidenav button {
+      font-family: normal;
+      font-size: 15px; }
+  .left-side-bar {
+    margin: 2rem; }
+  .left-side-product-inside p {
+    width: 80%; }
+  .flex-col {
+    display: flex;
+    flex-direction: column !important; }
+    .flex-col .flex-col-1 {
+      margin-right: 0;
+      padding: 10px 100px; } }
+
+@media all and (max-width: 956px) {
+  .all-category {
+    max-width: 94% !important;
+    margin: auto !important;
+    display: flex;
+    flex-direction: column; }
+    .all-category .left-side-product {
+      display: none; }
+    .all-category .flex-col-1 {
+      margin-right: 0;
+      padding: 10px 10px; } }
 
 /* Some media queries for responsiveness */
 @media screen and (max-height: 450px) {

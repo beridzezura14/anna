@@ -31,7 +31,6 @@
 
 }
 .buttons-left-side a{
-
   padding: 5px 10px;
   background-color: $color-white;
   color: $color-primery-dark;
@@ -47,9 +46,9 @@
     background-color: $color-grey;
     overflow-x: hidden;
     padding: 50px 40px;
-    font-family: normal;
-   
+    font-family: normal;   
     margin-top: 4rem;
+
     button{
         font-family: normal;
         font-size: 15px;
@@ -125,7 +124,7 @@
     margin-right: 20px;
     margin-bottom: 20px;
     position: relative;
-    border: 1px solid $color-grey;
+    border: 1px solid $color-primery-light;
     padding: 10px 70px;
     justify-content: space-between;
     
@@ -187,8 +186,72 @@
 }
 
 
-  /* Some media queries for responsiveness */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+@media all and (max-width : 1200px){
+
+  .sidenav { 
+    width: 100%;
+    z-index: 1;
+    background-color: $color-grey;
+    overflow-x: hidden;
+    padding: 50px 20px;
+    font-family: normal;   
+    margin-top: 4rem;
+    
+    button{
+        font-family: normal;
+        font-size: 15px;
+    }
+
   }
+  .left-side-bar{
+    margin: 2rem;
+  }
+  .left-side-product-inside p{
+    width: 80%;
+  }
+  .flex-col{
+    display: flex;
+    flex-direction: column !important;
+    .flex-col-1{
+      margin-right: 0;
+      padding: 10px 100px;
+    }
+  }
+}
+
+@media all and (max-width : 956px){
+  .all-category{
+    max-width: 94% !important;
+    margin: auto !important;
+    display: flex;
+    flex-direction: column;
+      .left-side-product{
+          display: none;
+        }
+
+      .flex-col-1{
+        margin-right: 0;
+        padding: 10px 10px;
+      }
+
+  }
+
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

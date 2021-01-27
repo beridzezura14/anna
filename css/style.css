@@ -1130,6 +1130,8 @@ footer {
     margin: auto !important;
     display: flex;
     flex-direction: column; }
+    .all-category .sidenav {
+      margin-top: 0rem; }
     .all-category .left-side-product {
       display: none; }
     .all-category .flex-col-1 {
@@ -1354,13 +1356,15 @@ footer {
     .section__category li:hover {
       transform: none; }
   .sale {
-    height: 130vh; }
+    background: #000d1d;
+    padding: 0;
+    margin: 0;
+    height: 850px; }
     .sale__future {
       display: flex;
       align-items: center;
       justify-content: center;
-      flex-direction: column;
-      height: 90vh; }
+      flex-direction: column; }
     .sale__future img {
       margin-top: 20px;
       height: 340px;
@@ -1370,6 +1374,10 @@ footer {
       margin-left: 200px;
       height: 80px;
       width: 70px; }
+  .fix-sale {
+    padding-top: 5rem !important; }
+    .fix-sale h3 {
+      margin-top: 50px !important; }
   .all-product {
     max-width: 98%;
     margin: auto;
@@ -1437,6 +1445,8 @@ footer {
       width: 310px; } }
 
 @media all and (max-width: 550px) {
+  .wishlist {
+    display: none; }
   .fade-in {
     opacity: 1; }
   .row-all {
@@ -1463,17 +1473,30 @@ footer {
     height: 200px;
     width: 180px;
     padding: 25px 55px 0 55px; }
-  .sale__future {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; }
-  .sale__future img {
-    margin-top: 20px;
-    height: 310px;
-    width: 300px; }
+  .sale {
+    padding-top: 5rem !important; }
+    .sale h3 {
+      margin-top: 50px !important; }
+    .sale__future {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+    .sale__future img {
+      margin-top: 20px;
+      height: 310px;
+      width: 300px; }
+    .sale__future div p {
+      max-width: 720px; }
+  .contact {
+    color: #ffffff;
+    padding: 15px 20px;
+    background-color: #2c5854;
+    border: 1px solid #2c5854;
+    border-radius: 5px;
+    margin-right: 10px; }
   .links-sale {
     padding-top: 30px;
     text-align: center; }
@@ -1498,6 +1521,7 @@ footer {
 
 @media all and (max-width: 350px) {
   .sale {
-    height: 160vh; }
-    .sale__future {
-      height: 120vh; } }
+    padding-top: 5rem !important;
+    height: 800px; }
+    .sale h3 {
+      margin-top: 70px !important; } }

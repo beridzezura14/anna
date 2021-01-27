@@ -225,9 +225,15 @@
     margin: auto !important;
     display: flex;
     flex-direction: column;
+
+    .sidenav { 
+      margin-top: 0rem;
+    }
       .left-side-product{
           display: none;
         }
+
+        
 
       .flex-col-1{
         margin-right: 0;
